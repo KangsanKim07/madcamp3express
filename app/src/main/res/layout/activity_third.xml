@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text10"
+        android:paddingVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="오늘의 배달지"
+        android:background="#D5513A"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp"
+        android:gravity="left"
+        android:fontFamily="@font/interparklight"
+        android:textStyle="bold"
+        android:paddingLeft="15dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTmap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.15"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#fe9329"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:fontFamily="@font/interparklight"
+        android:text="배달 전화 하기" />
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:id="@+id/gif"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize = "45dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/interparklight"
+        android:textColor="#fe9329"
+        android:text="통화중" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:fontFamily="@font/interparklight"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="@font/interparklight"
+        android:gravity="center"
+        android:text="TextView" />
+
+</LinearLayout>
